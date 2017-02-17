@@ -1,0 +1,29 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header"{% if post.layout == "landing" %} class="alt style2"{% endif %}{% if post.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ "" | prepend: site.baseurl }}" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        {% for post in site.posts %}
+		    {% if post.layout == "home" %}
+		        <li><a href="{{ "" | prepend: site.baseurl }}">{{ post.title }}</a></li>
+	    	{% endif %}
+		{% endfor %}
+		{% for post in site.posts %}
+		    {% if post.layout != "home" %}
+		        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+		    {% endif %}
+		{% endfor %}
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="http://davidallisoninc.com/" class="button special fit">David Allison Inc</a></li>
+	</ul>
+</nav>

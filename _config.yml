@@ -1,0 +1,33 @@
+# Site settings
+title: The Harwood
+subtitle: 
+email: hello@verygoodcreative.co
+description: Brand Strategy & Positioning and The Brand Story
+baseurl: "/harwood" # the subpath of your site, e.g. /blog
+url: "http://verygoodcreative.co" # the base hostname & protocol for your site
+author: David Allison Inc
+street_address: 
+city: Vancouver
+state: BC
+zip_code: 
+country: Canada
+phone: 
+
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 7
+
+# Social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: 
+
+# Build settings
+markdown: kramdown
