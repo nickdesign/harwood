@@ -3,7 +3,7 @@ title: The Harwood
 subtitle: 
 email: hello@verygoodcreative.co
 description: Brand Strategy & Positioning and The Brand Story
-baseurl: "/harwood" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://verygoodcreative.co" # the base hostname & protocol for your site
 author: David Allison Inc
 street_address: 
